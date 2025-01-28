@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Service
 public class WeatherServiceProduction implements WeatherService{
-    private static String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid=e8244d2051f9e5fa321ea378cdb0552c";
+    private static String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid=...";
 
     Logger logger = LoggerFactory.getLogger(WeatherService.class);
 
