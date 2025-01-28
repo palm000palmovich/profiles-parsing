@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 @Service
+@Profile("production")
 public class WeatherServiceProduction implements WeatherService{
     private static String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?q={city}&units=metric&appid=...";
 
